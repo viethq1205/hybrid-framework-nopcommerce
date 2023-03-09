@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerce">
+
+<listeners>
+<listener class-name = "commons.MethodListener" ></listener>
+ <!-- <listener class-name = "reportConfig.ReportNGListener"/> -->
+ <!-- <listener class-name="reportConfig.ExtentTestListener"/> -->
+  <listener class-name="reportConfig.AllureTestListener"/>
+<!--<listener class-name="org.uncommons.reportng.HTMLReporter"/> --> <!-- dòng này với dòng dưới đc add vào để xài đc reportNG, và cái này thực tế ko có cũng đc nhưng khi dùng Jenkin lại cần-->
+<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+</listeners>
+
+  <parameter name = "environment" value = "DEV" />
+  
+  <test name="Run on Firefox">
+  	<parameter name = "browser" value = "firefox" />
+    <classes>
+    <class name="com.nopcommerce.common.Common_01_Register"/> <!-- set thằng này chạy trc vì có nó mới có tk chạy cái test ở dưới có bước Login -->
+      <class name="nopcommerce.user.Level_15_Share_Data"/>
+    </classes>
+  </test> 
+  
+</suite> 

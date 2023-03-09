@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="Classes" name="Suite">
+ <parameter name = "environment" value = "DEV" />
+  <test name="Run on CHROME">
+  <parameter name = "browser" value = "chrome" />
+    <classes>
+      <class name="testng.ParallelClass"/>
+      <class name="testng.ParallelClass02"/>
+      <class name="testng.ParallelClass03"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

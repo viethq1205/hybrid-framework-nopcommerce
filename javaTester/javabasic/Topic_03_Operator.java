@@ -12,7 +12,7 @@ public class Topic_03_Operator {
 		System.out.println(number/5);
 		
 		//15%6 = 2 dư 3
-		System.out.println(number%6); //thằng này lấy phần dư ra tức = 3, cũng tương tự 15%7 thì nó lấy kq dư ra = 1
+		System.out.println(number%6); //thằng này lấy phần dư ra tức = 3, cũng tương tự 15%7 (15:7=2 mà 2x7=14 rồi + 1 mới ra 15) thì nó lấy kq dư ra = 1
 
 		////mấy cái trên đc gọi là assign (gán)
 		

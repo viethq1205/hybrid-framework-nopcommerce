@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="NopCommerce">
-  <test name="Run on Firefox">
+  <parameter name = "environment" value = "DEV" />
+  <test name="Run on CHROME">
+  	<parameter name = "browser" value = "chrome" />
     <classes>
-      <class name="nopcommerce.user.User_01_Register_Login"/>
+      <class name="nopcommerce.user.Level_17_Pattern_Object"/>
     </classes>
   </test> 
+  
 </suite> 

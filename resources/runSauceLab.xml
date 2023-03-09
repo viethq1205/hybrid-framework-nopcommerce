@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="SauceLab">
+
+<listeners>
+<listener class-name = "commons.MethodListener" ></listener>
+</listeners>
+
+  <parameter name = "appURL" value = "https://www.saucedemo.com/" />
+  
+  <test name="Run on CHROME">
+  	<parameter name = "browser" value = "chrome" />
+    <classes>
+      <class name="com.saucelab.sortdatatopic.Level_18_Sort_Data"/>
+    </classes>
+  </test> 
+  
+</suite> 

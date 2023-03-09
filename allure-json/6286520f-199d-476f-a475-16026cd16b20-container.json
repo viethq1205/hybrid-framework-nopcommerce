@@ -1,0 +1,1 @@
+{"uuid":"6286520f-199d-476f-a475-16026cd16b20","name":"SauceLab","children":["4896fe0f-ba3e-480e-a3a9-021cdbb7fb66"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1677851341367,"stop":1677851341371}],"afters":[],"links":[],"start":1677851341359,"stop":1677851375343}
